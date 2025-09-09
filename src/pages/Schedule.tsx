@@ -11,6 +11,7 @@ interface ScheduleItem {
   time: string;
 }
 
+
 const Schedule = () => {
   const [schedules, setSchedules] = useState<ScheduleItem[]>([
     { id: 1, room: 'Ruang Tamu', device: 'Lampu Utama', action: 'on', time: '18:00' },
